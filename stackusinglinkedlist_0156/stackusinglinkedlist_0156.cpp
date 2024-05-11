@@ -29,7 +29,7 @@ class Stack
         // Push Operation Insert an elemet onto the top of the stack
         int push(int value)
         {
-
+            Node* newNode = new Node(); //1.Allocate memory fo the new code
         }
 
 };
