@@ -40,7 +40,10 @@ class Stack
         // Pop operation: Remove the topmost element from the stack
         void pop()
         {
-
+            if (isEmpty())
+            {
+                cout << "Stack is empty." << endl;
+            }
         }
 
 };
