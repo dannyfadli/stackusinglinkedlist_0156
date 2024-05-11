@@ -20,6 +20,11 @@ class Stack
 {
     private:
         Node* top;  // Pointer to the top node of the stck
+    public:
+        Stack()
+        {
+            top = NULL;     //Initialize the stuck with a null top pointer
+        }
 
 };
 
