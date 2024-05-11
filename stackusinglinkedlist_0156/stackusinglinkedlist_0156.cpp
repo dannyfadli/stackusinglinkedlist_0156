@@ -26,6 +26,12 @@ class Stack
             top = NULL;     //Initialize the stuck with a null top pointer
         }
 
+        // Push Operation Insert an elemet onto the top of the stack
+        int push(int value)
+        {
+
+        }
+
 };
 
 int main()
