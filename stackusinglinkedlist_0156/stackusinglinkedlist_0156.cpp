@@ -15,6 +15,12 @@ class Node
         }
 };
 
+//Stack class
+class Stack 
+{
+    private:
+
+};
 
 int main()
 {
