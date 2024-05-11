@@ -19,6 +19,7 @@ class Node
 class Stack 
 {
     private:
+        Node* top;  // Pointer to the top node of the stck
 
 };
 
