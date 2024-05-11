@@ -44,15 +44,8 @@ class Stack
             {
                 cout << "Stack is empty." << endl;
             }
-            else 
-            {
-                Node* current = top;
-                while (current != NULL)
-                {
-                    cout << current->data << " " << endl;
-                    current = current->next;
-                }
-            }
+            cout << " Popped value: " << top->data << endl;
+            top = top->next;        //Update the top Pointer to the next code
         }
 
 };
