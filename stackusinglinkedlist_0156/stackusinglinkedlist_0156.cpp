@@ -37,6 +37,12 @@ class Stack
             return value;
         }
 
+        // Pop operation: Remove the topmost element from the stack
+        void pop()
+        {
+
+        }
+
 };
 
 int main()
