@@ -48,6 +48,24 @@ class Stack
             top = top->next;        //Update the top Pointer to the next code
         }
 
+        //Peak top  operation: Reet rive the value of the top most elemet without removiong it 
+        void peek()
+        {
+            if (top == NULL)
+            {
+                cout << "List is empty." << endl;
+            }
+            else
+            {
+                Node* current = top;
+                while (current != NULL)
+                {
+                    cout << current->data << " " << endl;
+                    current = current->next;
+                }
+                cout << endl;
+            }
+        }
 };
 
 int main()
