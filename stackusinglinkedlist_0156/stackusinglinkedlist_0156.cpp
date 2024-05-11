@@ -32,7 +32,7 @@ class Stack
             Node* newNode = new Node(); //1.Allocate memory fo the new code
             newNode->data = value;      //2.Assign value 
             newNode->next = top;        //3.set the next pointer of the new code to the current top node
-
+            top = newNode;              //4.Update the top pointer to the new code 
         }
 
 };
